@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <link rel="stylesheet" href="style/style.css">
   <meta charset="UTF-8"/>
+  <title>Седона — красивый город в Аризоне</title>
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 <header class="index-header">
@@ -39,6 +40,7 @@
       </li>
     </ul>
   </nav>
+  </nav>
 </header>
 <main class="index-main">
   <section class="index-main" id="index-main">
@@ -55,7 +57,7 @@
         <p class="reasons-description">
           Седона — не аттракцион для туристов, там течёт своя жизнь
         </p>
-        <img src="images/home-in-city.jpg" alt="Домики на фоне гор." class="image-home" wigth="800" height="385">
+        <img src="images/home-in-city.jpg" alt="Домики на фоне гор." class="image-home" width="800" height="385">
       </li>
       <li class="reasons-list-item">
         <h3 class="reasons-title">Небольшая площадь</h3>
@@ -121,12 +123,12 @@
       предложения гостиниц в Седоне
     </p>
     <a href="catalog.html" class="button">ПОИСК ГОСТИНИЦЫ В CЕДОНЕ</a>
-    <form class="have-you-corresponded-subscription">
+    <form class="have-you-corresponded-subscription" method="get" action="#">
       <h2 class="have-you-corresponded-title">Подпишитесь на рассылку</h2>
       <p class="have-you-corresponded-description">
         Только полезная информация и никакого спама, честное бойскаутское!
       </p>
-      <input type="text" class="text-line" value="Ваш e-mail"/>
+      <input type="text" class="text-line" placeholder="Ваш e-mail" required>
       <button type="submit" class="subscription-email-button">
         Подписаться
       </button>
@@ -134,29 +136,29 @@
   </section>
 </main>
 <footer class="index-footer">
-  <ul class="socal-list">
-    <li class="socal-item">
+  <ul class="social-list">
+    <li class="social-item">
       <a href="https://vk.com/htmlacademy">
-        <span class="vissually-hidden">Вконтакте</span>
+        <span class="visually-hidden">Вконтакте</span>
         <img src="images/VK.svg" alt="Вконтакте" width="24" height="14">
       </a>
     </li>
-    <li class="socal-item">
+    <li class="social-item">
       <a href="https://t.me/htmlacademy">
-        <span class="vissually-hidden">Telegram</span>
+        <span class="visually-hidden">Telegram</span>
         <img src="images/Telegram.svg" alt="Telegram" width="24" height="14">
       </a>
     </li>
-    <li class="socal-item">
+    <li class="social-item">
       <a href="https://www.youtube.com/user/htmlacademyru">
-        <span class="vissually-hidden">YouTube</span>
+        <span class="visually-hidden">YouTube</span>
         <img src="images/YouTube.svg" alt="YouTube" width="24" height="14">
       </a>
     </li>
   </ul>
-  <a href="tel:+7 (812) 812-12-12" class="phone">+7 (812) 812-12-12</a>
-  <a href="#">
-    <img src="images/Html-academy.svg" alt="Логотип HTML Academy" width="114.9" height="32.9">
+  <a href="tel:+78128121212" class="phone">+7 (812) 812-12-12</a>
+  <a href="https://htmlacademy.ru">
+    <img src="images/Html-academy.svg" alt="Логотип HTML Academy" width="115" height="33">
   </a>
 </footer>
 </body>
