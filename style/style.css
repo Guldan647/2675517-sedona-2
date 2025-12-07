@@ -1,0 +1,25 @@
+@font-face{
+  font-family:"PT Sans";
+  font-weight:400;
+  src:url("../fonts/ptsans-400.woff2")format("woff2");
+  font-display: swap;
+}
+
+@font-face{
+  font-family:"PT Sans";
+  font-weight: 700;
+  src:url("../fonts/ptsans-700.woff2")format("woff2");
+  font-display: swap;
+}
+ /*
+Подключение нестандартных шрифтов в формате WOFF2 со свойством font-display: swap. Шрифтовые файлы лежат у вас в папке fonts/ проекта.
+
+Описание текстовых параметров для всех элементов:
+
+размер шрифта,
+высота строки,
+цвет шрифта,
+насыщенность шрифта,
+гарнитура (название шрифта),
+другие текстовые параметры, если требуется по макету.
+ */
