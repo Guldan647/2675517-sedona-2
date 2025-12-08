@@ -11,19 +11,6 @@
   src:url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
- /*
-Подключение нестандартных шрифтов в формате WOFF2 со свойством font-display: swap. Шрифтовые файлы лежат у вас в папке fonts/ проекта.
-
-Описание текстовых параметров для всех элементов:
-
-размер шрифта,
-высота строки,
-цвет шрифта,  width="115" height="33"
-
-насыщенность шрифта,
-гарнитура (название шрифта),
-другие текстовые параметры, если требуется по макету.
- */
 
 body{
   font-size: 22px;
@@ -64,21 +51,13 @@ body{
   text-align: center;
   color: #000000;
 }
-
-.logo-welcome{
-  display: block;
-  margin: 0 auto;
+.images-main{
+  background-image:url("../images/index-background.jpg");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-
-.index-background{
-  width:100%;
-  max-width: 1200px;
-  min-height:485px;
-  background-image: url("../images/index-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  padding: 100px 20px;
-
+.reasons-title{
+  font-
 }
